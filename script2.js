@@ -9,7 +9,7 @@ arr.forEach(button => {button.addEventListener('click', (e)=>{
         input.value = string;
     }
     else if(e.target.innerHTML == 'AC'){
-        srting = "";
+        string = "";
         input.value = string;
     }
     else if(e.target.innerHTML == 'DEL'){
